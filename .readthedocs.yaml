@@ -31,11 +31,12 @@ build:
 python:
   install:
     - requirements: jbtest/requirements.txt
-    - method: pip
-      path: .
-      extra_requirements:
-      - sphinx
+    # - method: pip
+    #   path: .
+    #   extra_requirements:
+    #   - sphinx
 
 sphinx:
+  # configuration: jbtest/conf.py
   builder: html
   fail_on_warning: true
