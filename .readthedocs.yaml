@@ -30,6 +30,7 @@ build:
 
 python:
   install:
+    - requirements: jbtest/requirements.txt
     - method: pip
       path: .
       extra_requirements:
